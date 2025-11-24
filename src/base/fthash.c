@@ -168,7 +168,7 @@
              FT_Memory  memory )
   {
     FT_UInt   sz = INITIAL_HT_SIZE;
-    FT_Error  error;
+    FT_Error  error = FT_Err_Ok;
 
 
     hash->size  = sz;
